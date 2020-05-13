@@ -1,4 +1,4 @@
-namespace debugging {
+namespace Debugging {
 
     /**
      * Simple console logs
