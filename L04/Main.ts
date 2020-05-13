@@ -1,5 +1,5 @@
 namespace RandomPoem {
-    
+
     let subjects: string[] = ["Harry", "Hermine", "Ron", "Hagrid", "Snape", "Dumbledore"];
     let verbs: string[] = ["braut", "liebt", "studiert", "hasst", "zaubert", "zerstört"];
     let objects: string[] = ["Zaubertränke", "den Grimm", "Lupin", "Hogwards", "die Karte des Rumtreibers", "Dementoren"];
@@ -14,9 +14,9 @@ namespace RandomPoem {
         return popRandomElement(subjects) + " " + popRandomElement(verbs) + " " + popRandomElement(objects);
     }
     
-    // Jirka möchte Underscore für Übergabeparameter haben
-    function popRandomElement(array: string[]): string {
-        let index: number = Math.floor(Math.random() * array.length);
-        return array.splice(index, 1).toString();
+
+    function popRandomElement(_array: string[]): string {
+        let index: number = Math.floor(Math.random() * _array.length);
+        return _array.splice(index, 1).toString();
     }
 }
