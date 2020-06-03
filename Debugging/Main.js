@@ -1,6 +1,6 @@
 "use strict";
-var debugging;
-(function (debugging) {
+var Debugging;
+(function (Debugging) {
     /**
      * Simple console logs
      */
@@ -57,5 +57,5 @@ var debugging;
     console.groupEnd();
     //debugger;
     //alert("Dies ist ein modales Nachrichtenfenster");
-})(debugging || (debugging = {}));
+})(Debugging || (Debugging = {}));
 //# sourceMappingURL=Main.js.map
