@@ -11,7 +11,7 @@ namespace quiz {
     console.log("[1] Neue Frage erstellen");
     console.log("[2] Eine Frage beantworten");
     console.log("[3] Programm beenden");
-    let typeOfAction: string = prompt("Wähle eine Option:");
+    let typeOfAction: string = prompt("Wähle eine Option:"); // name this variable "choice"
     
     switch (typeOfAction) {
       case "1":
@@ -57,6 +57,16 @@ namespace quiz {
       newQuestion.addAnswer();
 
     }
+    
+    // Add addMultipleChoiceQuestion()
+    
+    // Add addYesNoQuestion()
+    
+    // Add addEstimateQuestion()
+    
+    // Add addTextQuestion()
+    
+    // Add answerQuestion()
 
 
   }
