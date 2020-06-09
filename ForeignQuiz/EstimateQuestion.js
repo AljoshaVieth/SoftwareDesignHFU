@@ -13,5 +13,6 @@ var quiz;
             //TODO
         }
     }
+    quiz.EstimateQuestion = EstimateQuestion;
 })(quiz || (quiz = {}));
 //# sourceMappingURL=EstimateQuestion.js.map

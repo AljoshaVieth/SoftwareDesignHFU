@@ -1,7 +1,7 @@
 
 namespace quiz {
     
-    class SingleChoiceQuestion extends Question {
+    export class SingleChoiceQuestion extends Question {
         
         public answers: string[];
         public correctAnswer: number;

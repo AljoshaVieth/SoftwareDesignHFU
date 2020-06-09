@@ -1,6 +1,6 @@
 namespace quiz {
 
-    class MultipleChoiceQuestion extends Question {
+    export class MultipleChoiceQuestion extends Question {
 
         public answers: string[];
         public correctAnswers: number[];

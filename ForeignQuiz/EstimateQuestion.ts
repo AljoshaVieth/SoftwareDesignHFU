@@ -1,6 +1,6 @@
 namespace quiz {
 
-    class EstimateQuestion extends Question {
+    export class EstimateQuestion extends Question {
 
         public answer: number;
         public tolerance: number;

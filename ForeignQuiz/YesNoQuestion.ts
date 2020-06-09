@@ -1,6 +1,6 @@
 namespace quiz {
 
-    class YesNoQuestion extends Question {
+    export class YesNoQuestion extends Question {
 
         public correctAnswer: boolean;
 

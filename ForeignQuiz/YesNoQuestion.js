@@ -10,5 +10,6 @@ var quiz;
             //TODO
         }
     }
+    quiz.YesNoQuestion = YesNoQuestion;
 })(quiz || (quiz = {}));
 //# sourceMappingURL=YesNoQuestion.js.map

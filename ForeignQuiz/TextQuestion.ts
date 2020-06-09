@@ -1,6 +1,6 @@
 namespace quiz {
 
-    class TextQuestion extends Question {
+    export class TextQuestion extends Question {
 
         public answer: string;
 

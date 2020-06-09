@@ -14,5 +14,6 @@ var quiz;
             //TODO
         }
     }
+    quiz.MultipleChoiceQuestion = MultipleChoiceQuestion;
 })(quiz || (quiz = {}));
 //# sourceMappingURL=MultipleChoiceQuestion.js.map

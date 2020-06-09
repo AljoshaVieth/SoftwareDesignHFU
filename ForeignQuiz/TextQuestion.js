@@ -10,5 +10,6 @@ var quiz;
             //TODO
         }
     }
+    quiz.TextQuestion = TextQuestion;
 })(quiz || (quiz = {}));
 //# sourceMappingURL=TextQuestion.js.map

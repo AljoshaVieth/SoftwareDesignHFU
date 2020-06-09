@@ -1,0 +1,1 @@
+{"version":3,"file":"YesNoQuestion.js","sourceRoot":"","sources":["YesNoQuestion.ts"],"names":[],"mappings":";AAAA,IAAU,IAAI,CAeb;AAfD,WAAU,IAAI;IAEV,MAAa,aAAc,SAAQ,KAAA,QAAQ;QAIhC,WAAW,CAAC,eAAwB;YACvC,MAAM;YACN,OAAO,IAAI,CAAC;QAChB,CAAC;QAEM,gBAAgB,CAAC,cAAuB;YAC3C,MAAM;QACV,CAAC;KACJ;IAZY,kBAAa,gBAYzB,CAAA;AACL,CAAC,EAfS,IAAI,KAAJ,IAAI,QAeb"}

@@ -14,5 +14,6 @@ var quiz;
             //TODO   
         }
     }
+    quiz.SingleChoiceQuestion = SingleChoiceQuestion;
 })(quiz || (quiz = {}));
 //# sourceMappingURL=SingleChoiceQuestion.js.map
