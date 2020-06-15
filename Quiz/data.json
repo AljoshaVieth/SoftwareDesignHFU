@@ -1,0 +1,48 @@
+{
+    "questions": [
+      {
+        "type": "YesNo",
+        "question": "QuestionText",
+        "answers": [
+          "Yes",
+          "No"
+        ],
+        "rightAnswer": true
+      },
+      {
+        "type": "Valuation",
+        "question": "QuestionText",
+        "rightAnswer": 8848,
+        "tolerance": 20
+      },
+      {
+        "type": "SingleChoice",
+        "question": "QuestionText",
+        "answers": [
+          "Answer1",
+          "Answer2",
+          "Answer3"
+        ],
+        "rightAnswer": "Answer2"
+      },
+      {
+        "type": "MultipleChoice",
+        "question": "QuestionText",
+        "answers": [
+          "Answer1",
+          "Answer2",
+          "Answer3"
+        ],
+        "rightAnswers": [
+          "Answer2",
+          "Answer3"
+        ],
+        "numberOfRightAnswers": 2
+      },
+      {
+        "type": "FreeText",
+        "question": "QuestionText",
+        "rightAnswer": "RightAnswer"
+      }
+    ]
+  }
