@@ -158,11 +158,33 @@ var quiz;
                 question.checkAnswer();
             }
         }
-        loadData() {
-        }
     }
     Quiz.score = 0;
     Quiz.questions = [];
     quiz.Quiz = Quiz;
+    class Data {
+    }
+    async function loadData(_filename) {
+        console.log("Start fetch");
+        let response = await fetch(_filename);
+        let text = await response.text();
+        let json = JSON.parse(text);
+        // alternative: json = await response.json();
+        console.log("Done fetch");
+        return (json);
+    }
+    function saveData(_content, _filename) {
+        let blob = new Blob([_content], { type: "text/plain" });
+        let url = window.URL.createObjectURL(blob);
+        //*/ using anchor element for download
+        let downloader;
+        downloader = document.createElement("a");
+        downloader.setAttribute("href", url);
+        downloader.setAttribute("download", _filename);
+        document.body.appendChild(downloader);
+        downloader.click();
+        document.body.removeChild(downloader);
+        window.URL.revokeObjectURL(url);
+    }
 })(quiz || (quiz = {}));
 //# sourceMappingURL=Quiz.js.map
